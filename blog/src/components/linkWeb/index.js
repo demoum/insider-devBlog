@@ -30,7 +30,7 @@ const sytles = StyleSheet.create({
     alignItems: 'center'
   },
   name: {
-    color: '#FFF',
+    color: '#fffff0',
     marginLeft: 8,
     fontSize: 18,
     fontWeight: 'bold'

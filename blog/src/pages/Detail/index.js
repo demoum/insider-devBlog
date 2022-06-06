@@ -41,7 +41,7 @@ export default function Detail() {
     navigation.setOptions({
       headerRight: () => (
         <TouchableOpacity onPress={handleShare}>
-          <Entypo name="share" size={25} color="#000" />
+          <Entypo name="share" size={25} color="#fffff0" />
         </TouchableOpacity>
       ),
     });
@@ -128,7 +128,7 @@ export default function Detail() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#FFF",
+    backgroundColor: "#fffff0",
   },
   cover: {
     width: "100%",
@@ -139,6 +139,8 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginBottom: 14,
     marginTop: 18,
+    alignItems: 'center',
+    marginLeft: 18
   },
   content: {
     paddingHorizontal: 12,

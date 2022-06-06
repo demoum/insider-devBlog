@@ -40,7 +40,7 @@ export default function PostItem({ data }) {
 const styles = StyleSheet.create({
   container: {
     borderWidth: 1,
-    borderColor: "#EFEFEF",
+    borderColor: "#1E1E26",
     borderRadius: 4,
     marginBottom: 14,
     paddingHorizontal: 12,
